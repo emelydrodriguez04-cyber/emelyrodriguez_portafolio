@@ -165,7 +165,7 @@ header .navbar {
 
 .fondo-home {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.38), rgba(0, 0, 0, 0.48)),
-		url("../img/foto_emely.jpg");
+		url("../img/foto_emely.jpeg");
 	background-position: center;
 	background-size: cover;
 }
@@ -680,7 +680,7 @@ footer .logo {
 .fondo-about {
 	background-image:
 		linear-gradient(rgba(0, 0, 0, 0.48), rgba(0, 0, 0, 0.62)),
-		url("../img/fondo_aboutme.jpg");
+		url("../img/foto_emely.jpeg");
 	background-position: center;
 	background-size: cover;
 }
@@ -4997,4 +4997,475 @@ footer .logo {
 		font-size: 14px;
 	}
 
+}
+
+/* =====================================================
+   LÚMIELLA - CREACIÓN DE CONTENIDO
+===================================================== */
+
+
+/* =====================================================
+   PORTADA
+===================================================== */
+
+#hero-lumiella {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 620px;
+	padding-top: 100px;
+	background-color: #3f493f;
+	background-image:
+		linear-gradient(
+			rgba(31, 39, 32, 0.42),
+			rgba(31, 39, 32, 0.65)
+		),
+		url("../img/lumiella_fondo.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: #ffffff;
+	text-align: center;
+}
+
+#hero-lumiella .container {
+	position: relative;
+	transform: translateY(-25px);
+}
+
+#hero-lumiella .hero-etiqueta {
+	margin-bottom: 8px;
+	color: #ece8df;
+	font-size: 11px;
+	font-weight: 600;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+}
+
+#hero-lumiella h1 {
+	margin: 0;
+	color: #ffffff;
+	font-family: var(--tipografia-titulos);
+	font-size: 100px;
+	font-weight: 500;
+	letter-spacing: 6px;
+	line-height: 1;
+}
+
+#hero-lumiella .hero-descripcion {
+	margin: 20px 0 0;
+	color: #ffffff;
+	font-size: 11px;
+	letter-spacing: 4px;
+	text-transform: uppercase;
+}
+
+
+/* =====================================================
+   PRESENTACIÓN
+===================================================== */
+
+#presentacion-lumiella {
+	background-color: #f7f4f1;
+}
+
+#presentacion-lumiella .titulo {
+	color: #000000;
+}
+
+#presentacion-lumiella article:first-child > p:not(.etiqueta-seccion) {
+	margin-bottom: 18px;
+	color: #4f4f4f;
+	font-size: 14px;
+	line-height: 1.9;
+}
+
+.imagen-lumiella-presentacion {
+	display: block;
+	width: 78%;
+	max-width: 520px;
+	height: auto;
+	margin: 0 auto;
+	object-fit: contain;
+}
+
+#presentacion-lumiella .detalles-proyecto {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 15px;
+	margin-top: 35px;
+	padding-top: 30px;
+	border-top: 1px solid #d5d1ce;
+}
+
+#presentacion-lumiella .detalle {
+	padding-right: 10px;
+}
+
+#presentacion-lumiella .detalle-etiqueta {
+	margin-bottom: 7px;
+	color: #3f493f;
+	font-size: 9px;
+	font-weight: 600;
+	letter-spacing: 1.5px;
+	text-transform: uppercase;
+}
+
+#presentacion-lumiella .detalle-valor {
+	margin: 0;
+	color: #222222;
+	font-size: 11px;
+	line-height: 1.6;
+}
+
+
+/* =====================================================
+   PROBLEMA
+===================================================== */
+
+#problema-lumiella {
+	background-color: #3f493f;
+}
+
+#problema-lumiella .etiqueta-seccion {
+	color: #d9d1c3;
+}
+
+#problema-lumiella .titulo {
+	color: #ffffff;
+}
+
+#problema-lumiella p {
+	color: #dfe2dc;
+	font-size: 14px;
+	line-height: 1.9;
+}
+
+#problema-lumiella .texto-destacado {
+	margin-bottom: 28px;
+	color: #ffffff;
+	font-family: var(--tipografia-titulos);
+	font-size: 29px;
+	font-weight: 500;
+	line-height: 1.4;
+}
+
+
+/* =====================================================
+   SOLUCIÓN
+===================================================== */
+
+#solucion-lumiella {
+	background-color: #ffffff;
+}
+
+.contenedor-solucion-lumiella {
+	max-width: 540px;
+	margin: 0 auto;
+}
+
+.imagen-solucion-lumiella {
+	display: block;
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+}
+
+.solucion-lumiella-info {
+	padding-left: 45px;
+}
+
+.solucion-lumiella-info .titulo {
+	color: #000000;
+}
+
+.solucion-lumiella-info > p:not(.etiqueta-seccion) {
+	margin-bottom: 18px;
+	color: #555555;
+	font-size: 14px;
+	line-height: 1.9;
+}
+
+
+/* =====================================================
+   CONCEPTO
+===================================================== */
+
+#concepto-lumiella {
+	background-color: #ece8df;
+}
+
+#concepto-lumiella .etiqueta-seccion {
+	color: #3f493f;
+}
+
+#concepto-lumiella .titulo {
+	color: #000000;
+}
+
+#concepto-lumiella p {
+	color: #555555;
+	font-size: 14px;
+	line-height: 1.9;
+}
+
+#concepto-lumiella .texto-destacado {
+	margin-bottom: 28px;
+	color: #1f281f;
+	font-family: var(--tipografia-titulos);
+	font-size: 29px;
+	font-weight: 500;
+	line-height: 1.4;
+}
+
+
+/* =====================================================
+   PUBLICACIONES
+===================================================== */
+
+#publicaciones-lumiella {
+	background-color: #ffffff;
+}
+
+#publicaciones-lumiella .encabezado-seccion {
+	max-width: 780px;
+	margin: 0 auto 50px;
+}
+
+#publicaciones-lumiella .titulo {
+	color: #000000;
+}
+
+#publicaciones-lumiella .subtitulo {
+	color: #5f5f5f;
+}
+
+.publicaciones-lumiella-grid {
+	max-width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	row-gap: 28px;
+}
+
+.publicacion-lumiella {
+	max-width: 285px;
+	margin: 0 auto;
+	background-color: #f7f4f1;
+	overflow: hidden;
+}
+
+.publicacion-lumiella img {
+	display: block;
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+}
+
+.publicacion-lumiella figcaption {
+	padding: 14px 15px;
+	color: #666666;
+	font-size: 9px;
+	letter-spacing: 1px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+
+/* =====================================================
+   CONTENIDO VERTICAL
+===================================================== */
+
+#contenido-vertical-lumiella {
+	background-color: #f7f4f1;
+}
+
+#contenido-vertical-lumiella .encabezado-seccion {
+	max-width: 760px;
+	margin: 0 auto 50px;
+}
+
+#contenido-vertical-lumiella .titulo {
+	color: #000000;
+}
+
+#contenido-vertical-lumiella .subtitulo {
+	color: #5f5f5f;
+}
+
+.contenido-vertical-grid {
+	gap: 24px 0;
+}
+
+.pieza-vertical-lumiella {
+	width: 100%;
+	max-width: 255px;
+	margin: 0 auto;
+	background-color: #ffffff;
+	overflow: hidden;
+}
+
+.pieza-vertical-lumiella img,
+.pieza-vertical-lumiella video {
+	display: block;
+	width: 100%;
+	aspect-ratio: 9 / 16;
+	background-color: #3f493f;
+	object-fit: cover;
+}
+
+.pieza-vertical-lumiella figcaption {
+	padding: 15px;
+	color: #666666;
+	font-size: 9px;
+	letter-spacing: 1px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+
+/* =====================================================
+   RESULTADO
+===================================================== */
+
+#resultado-lumiella {
+	background-color: #3f493f;
+}
+
+#resultado-lumiella .container {
+	max-width: 900px;
+}
+
+#resultado-lumiella .etiqueta-seccion {
+	color: #d9d1c3;
+}
+
+#resultado-lumiella .titulo {
+	color: #ffffff;
+}
+
+#resultado-lumiella .container > p:not(.etiqueta-seccion) {
+	margin: 0 auto;
+	color: #dfe2dc;
+	font-size: 15px;
+	line-height: 1.9;
+}
+
+
+/* =====================================================
+   RESPONSIVE - TABLET
+===================================================== */
+
+@media (max-width: 991px) {
+
+	#hero-lumiella {
+		min-height: 550px;
+	}
+
+	#hero-lumiella h1 {
+		font-size: 78px;
+	}
+
+	.imagen-lumiella-presentacion {
+		width: 65%;
+		margin-top: 45px;
+	}
+
+	.solucion-lumiella-info {
+		padding-top: 45px;
+		padding-left: 0;
+	}
+
+	#problema-lumiella .titulo,
+	#concepto-lumiella .titulo {
+		margin-bottom: 35px;
+	}
+}
+
+
+/* =====================================================
+   RESPONSIVE - MÓVIL
+===================================================== */
+
+@media (max-width: 767px) {
+
+	#hero-lumiella {
+		min-height: 480px;
+		padding: 130px 20px 70px;
+	}
+
+	#hero-lumiella h1 {
+		font-size: 58px;
+		letter-spacing: 4px;
+	}
+
+	#hero-lumiella .hero-descripcion {
+		font-size: 9px;
+		letter-spacing: 2px;
+		line-height: 1.8;
+	}
+
+	.imagen-lumiella-presentacion {
+		width: 78%;
+		max-width: 390px;
+	}
+
+	#problema-lumiella .texto-destacado,
+	#concepto-lumiella .texto-destacado {
+		font-size: 25px;
+	}
+
+	.contenedor-solucion-lumiella {
+		max-width: 480px;
+	}
+
+	.publicacion-lumiella {
+		max-width: 320px;
+	}
+
+	.pieza-vertical-lumiella {
+		max-width: 235px;
+	}
+}
+
+
+/* =====================================================
+   RESPONSIVE - MÓVILES PEQUEÑOS
+===================================================== */
+
+@media (max-width: 575px) {
+
+	#hero-lumiella {
+		min-height: 430px;
+	}
+
+	#hero-lumiella h1 {
+		font-size: 44px;
+	}
+
+	#presentacion-lumiella .detalles-proyecto {
+		grid-template-columns: 1fr;
+	}
+
+	#presentacion-lumiella .detalle {
+		padding-bottom: 12px;
+		border-bottom: 1px solid #dedad7;
+	}
+
+	.imagen-lumiella-presentacion {
+		width: 90%;
+	}
+
+	#problema-lumiella .texto-destacado,
+	#concepto-lumiella .texto-destacado {
+		font-size: 22px;
+	}
+
+	.publicacion-lumiella {
+		max-width: 280px;
+	}
+
+	.pieza-vertical-lumiella {
+		max-width: 215px;
+	}
 }
